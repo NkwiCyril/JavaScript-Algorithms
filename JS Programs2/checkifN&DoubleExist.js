@@ -1,13 +1,15 @@
-// check if N and its double exists in an array
-
-var checkParam = function (numArray) {
-    for (let start = numArray.length - 1; start >= 0; start--){
-        for(let end = 0; end < numArray.length; end++){
-            if(numArray[start] == (2 * numArray[end])){
-                console.log(true) ;
+/**
+ * @param {number[]} arr
+ * @return {boolean}
+ */
+var checkIfExist = function(arr) {
+    for( let i = arr.length - 1; i >= 0; i--){
+        for(let j = 0; j < arr.length; j++){
+            if(parseInt(arr[i]) === parseInt(2 * arr[j])){
+                return true
             }
-            console.log(false);
-        }
+        }  
     }
-}
-console.log(checkParam([1,2,3,4]))
+    return false
+};
+console.log(checkIfExist([[-2,0,10,-19,4,6,-8]]))

@@ -1,12 +1,15 @@
-
-function checkIfExists(num) {
-    for( let i = num.length - 1; i >= 0; i--){
-        for(let j = 0; j < num.length;j++){
-            if(num[i] == 2 * num[j]){
+/**
+ * @param {number[]} arr
+ * @return {boolean}
+ */
+var checkIfExist = function(arr) {
+    for( let i = arr.length - 1; i >= 0; i--){
+        for(let j = 0; j < arr.length; j++){
+            if(parseInt(arr[i]) === parseInt(2 * arr[j])){
                 return true
             }
         }  
     }
     return false
 };
-console.log(checkIfExists([3,1,7,6]))
+console.log(checkIfExist([[-2,0,10,-19,4,6,-8]]))
