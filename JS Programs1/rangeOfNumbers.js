@@ -1,5 +1,12 @@
 // creating a range of numbers
-
+/**
+ * 
+ * count from a particular number (startNum) to another (endNum)
+ * 
+ * @param {number} startNum 
+ * @param {number} endNum 
+ * @returns 
+ */
 function rangeOfNumbers(startNum, endNum){
     if(endNum < startNum){
         return [];

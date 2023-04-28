@@ -1,3 +1,6 @@
+
+// using the rest (...) parameter in JS
+
 function myREST(a,b, ...args){
     console.log("a" , a);
     console.log("b" , b);

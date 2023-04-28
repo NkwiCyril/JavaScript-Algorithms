@@ -1,11 +1,11 @@
-// function to test for the presence of a particular property of an object and display
+/**
+ *  function to test for the presence of a particular property of an object and display
+ * */ 
 
 function check(obj,checkProp){
 
     if(obj.hasOwnProperty(checkProp)==true){
-     console.log(obj[checkProp]) ;
-
-
+        console.log(obj[checkProp]) ;
     }
     else{
         return "Not found!"

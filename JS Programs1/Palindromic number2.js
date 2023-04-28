@@ -1,4 +1,6 @@
 /**
+ * shorter code for palindrimic number program above
+ * 
  * @param {number} x
  * @return {boolean}
  */

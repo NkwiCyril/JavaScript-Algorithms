@@ -1,4 +1,8 @@
-// Setup
+/**
+ * JS program to find to display a person contact on a contact list when searched
+ * 'No such contact' displays if not found
+ * 'No such property' displays if contacts credentials are incorrect.
+ */
 const contacts = [
     {
       firstName: "Akira",
@@ -26,11 +30,7 @@ const contacts = [
     },
   ];
   
-
 //Revise on FILTER methods
-
-  
-  
   function lookUpProfile(name, prop) {
     // Only change code below this line
     let value = "";

@@ -1,4 +1,7 @@
 // Setup
+// JS program to search and access albums from a record collection
+
+
 const recordCollection = {
     2548: {
       albumTitle: 'Slippery When Wet',

@@ -1,21 +1,8 @@
-/*
-function Encrypt(str){
-    var arrayAlpha = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+/** 
+ * Cipher algorithm used by Julius Caesar in the past centuries to communicate with
+ * and pass commands to his generals.
+ */
 
-    for (let i = 0; i < str.length; i++){
-        if (str[i] === arrayAlpha[0]){
-            arrayAlpha[0] = arrayAlpha[23];
-        }
-        else if(str[i] === arrayAlpha[1]){
-            arrayAlpha[1] = arrayAlpha[24];
-        }
-        else if(str[i] === arrayAlpha[2]){
-            arrayAlpha[2] = arrayAlpha[25];
-        }
-    }
-}
-
-console.log(Encrypt("ABC")); */
 
 function Encrypt(str){
     var solve = "";

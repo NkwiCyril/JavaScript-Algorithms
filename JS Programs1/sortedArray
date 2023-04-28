@@ -1,4 +1,7 @@
 /**
+ * 
+ * JS program to square all integers in array and return the array sorted
+ * 
  * @param {number[]} nums
  * @return {number[]}
  */
@@ -9,7 +12,7 @@ var sortedSquares = function (nums) {
     
         }
         for (let i = 0; i < nums.length; i++) {
-            for(j = nums.length - 1; j >= 0; j--){
+            for(let j = nums.length - 1; j >= 0; j--){
                 if(nums[j] > nums[j + 1]){
                     let temp = nums[j + 1];
                     nums[j + 1] = nums[j];

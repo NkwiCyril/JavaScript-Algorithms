@@ -1,4 +1,8 @@
 /**
+ * 
+ * returning the number steps to reduce a number to zero by doing the following;
+ *      -dividing the number by two when it is even and
+ *      -subtract 1 form it when the number truns into an odd number
  * @param {number} num
  * @return {number}
  */

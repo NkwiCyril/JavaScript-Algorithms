@@ -1,4 +1,9 @@
 /**
+ * 
+ * JS program to the number of numbers with an even number of digits
+ * e.g var num = [23,232,12]; 
+ * num[0] and num[3] have an even number of digits hence the program returns 2; 
+ * 
  * @param {number[]} nums
  * @return {number}
  */
@@ -10,7 +15,7 @@ function getDigits(num) {
     }
 
     while(num > 0) {
-        num = parseInt(num / 10); // do research on this section
+        num = parseInt(num / 10);
         countDigits++;
     }
     

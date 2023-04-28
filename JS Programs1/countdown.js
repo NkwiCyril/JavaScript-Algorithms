@@ -1,4 +1,9 @@
- // Only change code below this line
+/**
+ * Recursive function to countdown from any number placed in the function
+ * 
+ * @param {number} n 
+ * @returns 
+ */
 function countdown(n){
     if(n < 1){
         return [];
