@@ -1,4 +1,4 @@
-// Problem: Return true if the sum of the first 2 numbes equal the sum of the last two numbers in a four digit number
+// Problem: Return true if the sum of the first 2 numbes equal the sum of the last two numbers
 //Method 1
 var perfectNumber = function(num){
     // convert num to string to obtain num.length
@@ -14,5 +14,5 @@ var perfectNumber = function(num){
 
 console.log(perfectNumber(1011));
 
-
+// Method 2
 
