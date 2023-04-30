@@ -5,7 +5,7 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-var sortedSquares = (nums: number[]): number[] => {
+function sortedSquares(nums){
     for (let i = 0; i < nums.length; i++) {
 
         nums[i] *= nums[i];
@@ -22,7 +22,7 @@ var sortedSquares = (nums: number[]): number[] => {
 
     }
     return nums;
-};
+}
 
 
 console.log(sortedSquares([-7,-3,2,3,11]))
